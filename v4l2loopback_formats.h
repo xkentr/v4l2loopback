@@ -6,6 +6,18 @@
      .flags    = 0,
      },
 {
+   .name     = "32 bpp BGR, le",
+     .fourcc   = V4L2_PIX_FMT_XRGB32,
+     .depth    = 32,
+     .flags    = 0,
+     },
+{
+   .name     = "32 bpp BGR, le",
+     .fourcc   = V4L2_PIX_FMT_XBGR32,
+     .depth    = 32,
+     .flags    = 0,
+     },
+{
    .name     = "32 bpp RGB, be",
      .fourcc   = V4L2_PIX_FMT_RGB32,
      .depth    = 32,
